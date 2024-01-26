@@ -1,0 +1,371 @@
+{
+  "admin": {
+    "id": 1,
+    "username": "admin",
+    "password": "123456",
+    "email": "admin@example.com",
+    "bill": 2,
+    "full_name": "Chivo",
+    "role": "admin"
+  },
+  "users": [
+    {
+      "id": 1,
+      "img": "img/1.jpeg",
+      "username": "Chi",
+      "password": "123456",
+      "watch": "20",
+      "email": "baothanhthien241023@gmail.com",
+      "bill": 2,
+      "full_name": "Chivo",
+      "role": "user"
+    },
+    {
+      "id": 2,
+      "img": "img/3.jpeg",
+      "username": "Vo",
+      "password": "123456",
+      "watch": "15",
+      "email": "chivo241023icloud@gmail.com",
+      "bill": 6,
+
+      "full_name": "VoHoChi",
+      "role": "user"
+    },
+    {
+      "id": 3,
+      "img": "img/1.jpeg",
+      "username": "Mai",
+      "password": "123456",
+      "watch": "10",
+      "email": "SUDO@gmail.com",
+      "bill": 5,
+      "full_name": "VoHoChi",
+      "role": "user"
+    }
+  ],
+  "catagories": [
+    { "id": 1, "name": "Biệt thự", "img": "./img/BietThu1.webp" },
+    {
+      "id": 2,
+      "name": "Phòng",
+      "img": "./img/Phong1.webp"
+    },
+    {
+      "id": 3,
+      "name": "Hang động",
+      "img": "./img/Hang1.webp"
+    },
+    { "id": 4, "name": "Cà phê chòi", "img": "./img/Fs8.webp" }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "category_id": 1,
+      "name": "Biệt thự ven biển",
+      "description": "Biệt thự 3 phòng ngủ, 2 phòng tắm, view biển",
+      "price": "21990000",
+      "address": "Đà Nẵng",
+      "images": "./img/BietThu2.webp",
+      "amenities": ["wifi", "bể bơi", "bãi biển riêng"],
+      "capacity": 10,
+      "availability": "Tersedia",
+      "owner_id": 1
+    },
+    {
+      "id": 2,
+      "category_id": 2,
+      "name": "Biệt thự ven biển",
+      "description": "Biệt thự 3 phòng ngủ, 2 phòng tắm, view biển",
+      "price": "11980000",
+      "address": "Đà Nẵng",
+      "images": "./img/BietThu3.webp",
+      "amenities": ["wifi", "bể bơi", "bãi biển riêng"],
+      "capacity": 10,
+      "availability": "Tersedia",
+      "owner_id": 1
+    },
+    {
+      "id": 3,
+      "category_id": 3,
+      "name": "Biệt thự ven hồ",
+      "description": "Biệt thự 5 phòng ngủ, 3 phòng tắm, view hồ",
+      "price": "41990000",
+      "address": "Đà Nẵng",
+      "images": "./img/BietThu5.webp",
+      "amenities": ["wifi", "bể bơi", "bãi biển riêng", "cà phê"],
+      "capacity": 10,
+      "availability": "Tersedia",
+      "owner_id": 1
+    },
+
+    {
+      "id": 4,
+      "category_id": 4,
+      "name": "Biệt thự ven ao",
+      "description": "Biệt thự 4 phòng ngủ, 3 phòng tắm, view hồ",
+      "price": "51210000",
+      "address": "Đà Nẵng",
+      "images": "./img/BietThu1.webp",
+      "amenities": ["wifi", "bể bơi", "chòi", "cà phê"],
+      "capacity": 10,
+      "availability": "Tersedia",
+      "owner_id": 1
+    },
+    {
+      "id": 5,
+      "category_id": 5,
+      "name": "Biệt thự ven suối",
+      "description": "Biệt thự 7 phòng ngủ, 3 phòng tắm, view suối",
+      "price": "51210000",
+      "address": "Đà Nẵng",
+      "images": "./img/BietThu4.webp",
+      "amenities": ["wifi", "bể bơi", "vip", "chòi", "cà phê"],
+      "capacity": 10,
+      "availability": "Tersedia",
+      "owner_id": 1
+    }
+  ],
+  "Room": [
+    {
+      "id": 1,
+      "category_id": 1,
+      "name": "Ninh Giang, Việt Nam",
+      "description": "Biệt thự 3 phòng ngủ, 2 phòng tắm, view biển",
+      "price": "4790000",
+      "address": "Đà Nẵng",
+      "images": "./img/Phong1.webp",
+      "amenities": ["wifi", "bể bơi", "bãi biển riêng"],
+      "capacity": 10,
+      "availability": "Tersedia",
+      "owner_id": 1
+    },
+    {
+      "id": 2,
+      "category_id": 2,
+      "name": "Tam Đảo, Việt Nam",
+      "description": "Biệt thự 3 phòng ngủ, 2 phòng tắm, view biển",
+      "price": "5210000",
+      "address": "Đà Nẵng",
+      "images": "./img/Phong2.webp",
+      "amenities": ["wifi", "bể bơi", "bãi biển riêng"],
+      "capacity": 10,
+      "availability": "Tersedia",
+      "owner_id": 2
+    },
+    {
+      "id": 3,
+      "category_id": 3,
+      "name": "Hạ Long, Việt Nam",
+      "description": "Biệt thự 3 phòng ngủ, 2 phòng tắm, view biển",
+      "price": "2790000",
+      "address": "Đà Nẵng",
+      "images": "./img/Phong3.webp",
+      "amenities": ["wifi", "bể bơi", "bãi biển riêng"],
+      "capacity": 10,
+      "availability": "Tersedia",
+      "owner_id": 3
+    },
+    {
+      "id": 4,
+      "category_id": 4,
+      "name": "Hoa Lư, Việt Nam",
+      "description": "Biệt thự 3 phòng ngủ, 2 phòng tắm, view biển",
+      "price": "3710000",
+      "address": "Đà Nẵng",
+      "images": "./img/Phong4.webp",
+      "amenities": ["wifi", "bể bơi", "bãi biển riêng"],
+      "capacity": 10,
+      "availability": "Tersedia",
+      "owner_id": 4
+    },
+    {
+      "id": 5,
+      "category_id": 5,
+      "name": "Xuân Đám, Việt Nam",
+      "description": "Biệt thự 3 phòng ngủ, 2 phòng tắm, view biển",
+      "price": "4790000",
+      "address": "Đà Nẵng",
+      "images": "./img/Phong5.webp",
+      "amenities": ["wifi", "bể bơi", "bãi biển riêng"],
+      "capacity": 10,
+      "availability": "Tersedia",
+      "owner_id": 5
+    },
+    {
+      "id": 6,
+      "category_id": 6,
+      "name": "Tràng An, Việt Nam",
+      "description": "Biệt thự 3 phòng ngủ, 2 phòng tắm, view biển",
+      "price": "3990000",
+      "address": "Đà Nẵng",
+      "images": "./img/Phong6.webp",
+      "amenities": ["wifi", "bể bơi", "bãi biển riêng"],
+      "capacity": 10,
+      "availability": "Tersedia",
+      "owner_id": 6
+    },
+    {
+      "id": 7,
+      "category_id": 7,
+      "name": "Ninh Bình, Việt Nam",
+      "description": "Biệt thự 3 phòng ngủ, 2 phòng tắm, view biển",
+      "price": "4290000",
+      "address": "Đà Nẵng",
+      "images": "./img/Phong7.webp",
+      "amenities": ["wifi", "bể bơi", "bãi biển riêng"],
+      "capacity": 10,
+      "availability": "Tersedia",
+      "owner_id": 7
+    },
+    {
+      "id": 8,
+      "category_id": 8,
+      "name": "Tam đảo, Việt Nam",
+      "description": "Biệt thự 3 phòng ngủ, 2 phòng tắm, view biển",
+      "price": "8990000",
+      "address": "Đà Nẵng",
+      "images": "./img/Phong8.webp",
+      "amenities": ["wifi", "bể bơi", "bãi biển riêng"],
+      "capacity": 10,
+      "availability": "Tersedia",
+      "owner_id": 8
+    }
+  ],
+  "Favorite": [
+    {
+      "id": 1,
+      "category_id": 1,
+      "name": "Biệt thự ven biển",
+      "description": "Biệt thự 3 phòng ngủ, 2 phòng tắm, view biển",
+      "price": "15990000",
+      "address": "Đà Nẵng",
+      "images": "./img/Fs1.webp",
+      "amenities": ["wifi", "bể bơi", "bãi biển riêng"],
+      "capacity": 10,
+      "availability": "Tersedia",
+      "owner_id": 1
+    },
+    {
+      "id": 2,
+      "category_id": 1,
+      "name": "Biệt thự tại Thành phố",
+      "description": "Biệt thự 3 phòng ngủ, 2 phòng tắm, view biển",
+      "price": "11920000",
+      "address": "Đà Nẵng",
+      "images": "./img/BietThu4.webp",
+      "amenities": ["wifi", "bể bơi", "bãi biển riêng"],
+      "capacity": 10,
+      "availability": "Tersedia",
+      "owner_id": 1
+    },
+    {
+      "id": 3,
+      "category_id": 1,
+      "name": "Biệt thự ven biển",
+      "description": "Biệt thự 3 phòng ngủ, 2 phòng tắm, view biển",
+      "price": "21990000",
+      "address": "Đà Nẵng",
+      "images": "./img/Fs3.webp",
+      "amenities": ["wifi", "bể bơi", "bãi biển riêng"],
+      "capacity": 10,
+      "availability": "Tersedia",
+      "owner_id": 1
+    },
+    {
+      "id": 4,
+      "category_id": 4,
+      "name": "Biệt thự ven biển",
+      "description": "Biệt thự 3 phòng ngủ, 2 phòng tắm, view biển",
+      "price": "19110000",
+      "address": "Đà Nẵng",
+      "images": "./img/Fs4.webp",
+      "amenities": ["wifi", "bể bơi", "bãi biển riêng"],
+      "capacity": 10,
+      "availability": "Tersedia",
+      "owner_id": 1
+    },
+    {
+      "id": 5,
+      "category_id": 5,
+      "name": "Biệt thự ven biển",
+      "description": "Biệt thự 3 phòng ngủ, 2 phòng tắm, view biển",
+      "price": "15210000",
+      "address": "Đà Nẵng",
+      "images": "./img/Hang8.webp",
+      "amenities": ["wifi", "bể bơi", "bãi biển riêng"],
+      "capacity": 10,
+      "availability": "Tersedia",
+      "owner_id": 1
+    },
+    {
+      "id": 6,
+      "category_id": 6,
+      "name": "Biệt thự ven biển",
+      "description": "Biệt thự 3 phòng ngủ, 2 phòng tắm, view biển",
+      "price": "17121000",
+      "address": "Đà Nẵng",
+      "images": "./img/BietThu7.webp",
+      "amenities": ["wifi", "bể bơi", "bãi biển riêng"],
+      "capacity": 10,
+      "availability": "Tersedia",
+      "owner_id": 1
+    },
+    {
+      "id": 7,
+      "category_id": 7,
+      "name": "Biệt thự ven biển",
+      "description": "Biệt thự 3 phòng ngủ, 2 phòng tắm, view biển",
+      "price": "15990000",
+      "address": "Đà Nẵng",
+      "images": "./img/BietThu6.webp",
+      "amenities": ["wifi", "bể bơi", "bãi biển riêng"],
+      "capacity": 10,
+      "availability": "Tersedia",
+      "owner_id": 1
+    },
+    {
+      "id": 8,
+      "category_id": 8,
+      "name": "Biệt thự ven biển",
+      "description": "Biệt thự 3 phòng ngủ, 2 phòng tắm, view biển",
+      "price": "10920000",
+      "address": "Đà Nẵng",
+      "images": "./img/Fs8.webp",
+      "amenities": ["wifi", "bể bơi", "bãi biển riêng"],
+      "capacity": 10,
+      "availability": "Tersedia",
+      "owner_id": 1
+    }
+  ],
+  "BuildDetail": {
+    "id": 1,
+    "donhang_id": 1,
+    "product_id": 1,
+    "so_luong": 2,
+    "thanh_tien": 20000000
+  },
+  "comment": {
+    "id": 1,
+    "product_id": 1,
+    "user_id": 2,
+    "content": "Biệt thự rất đẹp và tiện nghi, chủ nhà thân thiện",
+    "rating": 5
+  },
+  "Product": {
+    "id": 1,
+    "id_user": 1,
+    "tongdh": 20.0,
+    "thuonghieu": "Luxury",
+    "hoten": "Vo Ho Chi",
+    "email": "nguyenvana@gmail.com",
+    "phone": "0912345678",
+    "ngay_dathang": "2024-01-04",
+    "dia_chi": "Số 10, đường Nguyễn Văn Cừ, Quận 1, Thành phố Hồ Chí Minh"
+  },
+  "trademark": {
+    "id_thuonghieu": 1,
+    "Name": "Địa điểm nghỉ dưỡng",
+    "logo": "..."
+  }
+}

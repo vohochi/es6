@@ -1,0 +1,1033 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Biệt thự",
+      "ct": "Favorite",
+      "images": "./img/BietThu1.webp",
+      "quantity": 20
+    },
+    {
+      "id": 2,
+      "name": "Phòng",
+      "ct": "Room",
+      "images": "./img/Phong1.webp",
+      "quantity": 25
+    },
+    {
+      "id": 3,
+      "name": "Xe cắm trại",
+      "ct": "camping",
+      "images": "./img/C1.webp",
+      "quantity": 30
+    },
+    {
+      "id": 4,
+      "name": "Nhà trên cây",
+      "ct": "homeTree",
+      "images": "./img/HT1.webp",
+      "quantity": 35
+    }
+  ],
+  "homeTree": [
+    {
+      "id": 1,
+      "category_id": 1,
+      "name": "Tam Đảo, Việt Nam",
+      "description": "Khung cảnh chill dễ chịu",
+      "price": "21990000",
+      "address": "Tam đảo",
+      "images": "./img/HT7.webp",
+      "amenities": ["wifi", "bể bơi", "bãi biển riêng"],
+      "capacity": 10,
+      "availability": "Tersedia",
+      "owner_id": 1
+    },
+    {
+      "id": 2,
+      "category_id": 2,
+      "name": "Tràng An, Việt Nam",
+      "description": "Khung cảnh chill dễ chịu",
+      "price": "11390000",
+      "address": "Tam đảo",
+      "images": "./img/HT5.webp",
+      "amenities": ["wifi", "bể bơi", "bãi biển riêng"],
+      "capacity": 10,
+      "availability": "Tersedia",
+      "owner_id": 2
+    },
+    {
+      "id": 3,
+      "category_id": 3,
+      "name": "Xuân Đám, Việt Nam",
+      "description": "Khung cảnh chill dễ chịu",
+      "price": "9990000",
+      "address": "Tam đảo",
+      "images": "./img/HT3.webp",
+      "amenities": ["wifi", "bể bơi", "bãi biển riêng"],
+      "capacity": 10,
+      "availability": "Tersedia",
+      "owner_id": 3
+    },
+    {
+      "id": 4,
+      "category_id": 4,
+      "name": "Tam Đảo, Việt Nam",
+      "description": "Khung cảnh chill dễ chịu",
+      "price": "21990000",
+      "address": "Tam đảo",
+      "images": "./img/HT4.webp",
+      "amenities": ["wifi", "bể bơi", "bãi biển riêng"],
+      "capacity": 10,
+      "availability": "Tersedia",
+      "owner_id": 4
+    },
+    {
+      "id": 5,
+      "category_id": 5,
+      "name": "Hoa Lư, Việt Nam",
+      "description": "Khung cảnh chill dễ chịu",
+      "price": "124120000",
+      "address": "Tam đảo",
+      "images": "./img/HT5.webp",
+      "amenities": ["wifi", "bể bơi", "bãi biển riêng"],
+      "capacity": 10,
+      "availability": "Tersedia",
+      "owner_id": 5
+    },
+    {
+      "id": 6,
+      "category_id": 6,
+      "name": "Hoa Lư, Việt Nam",
+      "description": "Khung cảnh chill dễ chịu",
+      "price": "21990000",
+      "address": "Tam đảo",
+      "images": "./img/HT9.webp",
+      "amenities": ["wifi", "bể bơi", "bãi biển riêng"],
+      "capacity": 10,
+      "availability": "Tersedia",
+      "owner_id": 6
+    },
+    {
+      "id": 7,
+      "category_id": 7,
+      "name": "Cao Bằng, Việt Nam",
+      "description": "Khung cảnh chill dễ chịu",
+      "price": "21990000",
+      "address": "Tam đảo",
+      "images": "./img/HT7.webp",
+      "amenities": ["wifi", "bể bơi", "bãi biển riêng"],
+      "capacity": 10,
+      "availability": "Tersedia",
+      "owner_id": 7
+    },
+    {
+      "id": 8,
+      "category_id": 8,
+      "name": "Nha Trang, Việt Nam",
+      "description": "Khung cảnh chill dễ chịu",
+      "price": "21990000",
+      "address": "Tam đảo",
+      "images": "./img/HT8.webp",
+      "amenities": ["wifi", "bể bơi", "bãi biển riêng"],
+      "capacity": 10,
+      "availability": "Tersedia",
+      "owner_id": 8
+    }
+  ],
+  "camping": [
+    {
+      "id": 1,
+      "category_id": 1,
+      "name": "Tam Đảo, Việt Nam",
+      "description": "Khung cảnh chill dễ chịu",
+      "price": "21990000",
+      "address": "Tam đảo",
+      "images": "./img/C1.webp",
+      "amenities": ["wifi", "bể bơi", "bãi biển riêng"],
+      "capacity": 10,
+      "availability": "Tersedia",
+      "owner_id": 1
+    },
+    {
+      "id": 2,
+      "category_id": 2,
+      "name": "Tràng An, Việt Nam",
+      "description": "Khung cảnh chill dễ chịu",
+      "price": "11390000",
+      "address": "Tam đảo",
+      "images": "./img/C2.webp",
+      "amenities": ["wifi", "bể bơi", "bãi biển riêng"],
+      "capacity": 10,
+      "availability": "Tersedia",
+      "owner_id": 2
+    },
+    {
+      "id": 3,
+      "category_id": 3,
+      "name": "Xuân Đám, Việt Nam",
+      "description": "Khung cảnh chill dễ chịu",
+      "price": "9990000",
+      "address": "Tam đảo",
+      "images": "./img/C3.webp",
+      "amenities": ["wifi", "bể bơi", "bãi biển riêng"],
+      "capacity": 10,
+      "availability": "Tersedia",
+      "owner_id": 3
+    },
+    {
+      "id": 4,
+      "category_id": 4,
+      "name": "Tam Đảo, Việt Nam",
+      "description": "Khung cảnh chill dễ chịu",
+      "price": "21990000",
+      "address": "Tam đảo",
+      "images": "./img/HT4.webp",
+      "amenities": ["wifi", "bể bơi", "bãi biển riêng"],
+      "capacity": 10,
+      "availability": "Tersedia",
+      "owner_id": 4
+    },
+    {
+      "id": 5,
+      "category_id": 5,
+      "name": "Hoa Lư, Việt Nam",
+      "description": "Khung cảnh chill dễ chịu",
+      "price": "124120000",
+      "address": "Tam đảo",
+      "images": "./img/HT5.webp",
+      "amenities": ["wifi", "bể bơi", "bãi biển riêng"],
+      "capacity": 10,
+      "availability": "Tersedia",
+      "owner_id": 5
+    },
+    {
+      "id": 6,
+      "category_id": 6,
+      "name": "Hoa Lư, Việt Nam",
+      "description": "Khung cảnh chill dễ chịu",
+      "price": "21990000",
+      "address": "Tam đảo",
+      "images": "./img/HT9.webp",
+      "amenities": ["wifi", "bể bơi", "bãi biển riêng"],
+      "capacity": 10,
+      "availability": "Tersedia",
+      "owner_id": 6
+    },
+    {
+      "id": 7,
+      "category_id": 7,
+      "name": "Cao Bằng, Việt Nam",
+      "description": "Khung cảnh chill dễ chịu",
+      "price": "21990000",
+      "address": "Tam đảo",
+      "images": "./img/HT7.webp",
+      "amenities": ["wifi", "bể bơi", "bãi biển riêng"],
+      "capacity": 10,
+      "availability": "Tersedia",
+      "owner_id": 7
+    },
+    {
+      "id": 8,
+      "category_id": 8,
+      "name": "Nha Trang, Việt Nam",
+      "description": "Khung cảnh chill dễ chịu",
+      "price": "21990000",
+      "address": "Tam đảo",
+      "images": "./img/HT8.webp",
+      "amenities": ["wifi", "bể bơi", "bãi biển riêng"],
+      "capacity": 10,
+      "availability": "Tersedia",
+      "owner_id": 8
+    }
+  ],
+  "product1": [
+    {
+      "id": 1,
+      "category_id": 1,
+      "name": "Biệt thự ven biển",
+      "description": "Biệt thự 3 phòng ngủ, 2 phòng tắm, view biển",
+      "price": "21990000",
+      "address": "Đà Nẵng",
+      "images": "./img/BietThu2.webp",
+      "amenities": ["wifi", "bể bơi", "bãi biển riêng"],
+      "capacity": 10,
+      "availability": "Tersedia",
+      "owner_id": 1
+    },
+    {
+      "id": 2,
+      "category_id": 2,
+      "name": "Biệt thự ven biển",
+      "description": "Biệt thự 3 phòng ngủ, 2 phòng tắm, view biển",
+      "price": "11980000",
+      "address": "Đà Nẵng",
+      "images": "./img/BietThu3.webp",
+      "amenities": ["wifi", "bể bơi", "bãi biển riêng"],
+      "capacity": 10,
+      "availability": "Tersedia",
+      "owner_id": 1
+    },
+    {
+      "id": 3,
+      "category_id": 3,
+      "name": "Biệt thự ven hồ",
+      "description": "Biệt thự 5 phòng ngủ, 3 phòng tắm, view hồ",
+      "price": "41990000",
+      "address": "Đà Nẵng",
+      "images": "./img/BietThu5.webp",
+      "amenities": ["wifi", "bể bơi", "bãi biển riêng", "cà phê"],
+      "capacity": 10,
+      "availability": "Tersedia",
+      "owner_id": 1
+    },
+    {
+      "id": 4,
+      "category_id": 4,
+      "name": "Biệt thự ven ao",
+      "description": "Biệt thự 4 phòng ngủ, 3 phòng tắm, view hồ",
+      "price": "51210000",
+      "address": "Đà Nẵng",
+      "images": "./img/BietThu1.webp",
+      "amenities": ["wifi", "bể bơi", "chòi", "cà phê"],
+      "capacity": 10,
+      "availability": "Tersedia",
+      "owner_id": 1
+    },
+    {
+      "id": 5,
+      "category_id": 5,
+      "name": "Biệt thự ven suối",
+      "description": "Biệt thự 7 phòng ngủ, 3 phòng tắm, view suối",
+      "price": "51210000",
+      "address": "Đà Nẵng",
+      "images": "./img/BietThu4.webp",
+      "amenities": ["wifi", "bể bơi", "vip", "chòi", "cà phê"],
+      "capacity": 10,
+      "availability": "Tersedia",
+      "owner_id": 1
+    }
+  ],
+  "admin": {
+    "id": 1,
+    "username": "admin",
+    "password": "123456",
+    "email": "admin@example.com",
+    "bill": 2,
+    "full_name": "Chivo",
+    "role": "admin"
+  },
+  "users": [
+    {
+      "id": 1,
+      "img": "img/1.jpeg",
+      "username": "Chi",
+      "password": "123456",
+      "watch": "20",
+      "email": "baothanhthien241023@gmail.com",
+      "bill": 2,
+      "full_name": "Chivo",
+      "role": "user"
+    },
+    {
+      "id": 2,
+      "img": "img/3.jpeg",
+      "username": "Vo",
+      "password": "123456",
+      "watch": "15",
+      "email": "chivo241023icloud@gmail.com",
+      "bill": 6,
+      "full_name": "VoHoChi",
+      "role": "user"
+    },
+    {
+      "id": 3,
+      "img": "img/1.jpeg",
+      "username": "Mai",
+      "password": "123456",
+      "watch": "10",
+      "email": "SUDO@gmail.com",
+      "bill": 5,
+      "full_name": "VoHoChi",
+      "role": "user"
+    },
+    {
+      "img": "img/3.jpeg",
+      "watch": 10,
+      "bill": 0,
+      "username": "chi",
+      "email": "chivo241023icloud@gmail.com",
+      "password": "111111",
+      "id": 4
+    },
+    {
+      "img": "img/2.jpeg",
+      "watch": 10,
+      "bill": 0,
+      "username": "chi",
+      "email": "chivo241023icloud@gmail.com",
+      "password": "",
+      "id": 5
+    }
+  ],
+  "Room": [
+    {
+      "id": 1,
+      "category_id": 1,
+      "name": "Ninh Giang, Việt Nam",
+      "description": "Một biệt thự mới của chi nhánh nằm cách bãi biển Cửa Đại 3 phút đi bộ và cách sông Thu Bồn 3 phút đi bộ. Nhà hàng địa phương, Spa trong vòng 5 phút đi bộ Nó có Hồ bơi riêng ngoài trời và cơ hội tập yoga trên bãi biển, cho phép du khách tham gia ",
+      "price": "4790000",
+      "address": "Đà Nẵng",
+      "images": "./img/Phong1.webp",
+      "amenities": ["wifi", "bể bơi", "bãi biển riêng"],
+      "capacity": 10,
+      "availability": "Tersedia",
+      "owner_id": 1
+    },
+    {
+      "id": 2,
+      "category_id": 2,
+      "name": "Tam Đảo, Việt Nam",
+      "description": "Đây là một căn hộ Penthouse rất độc đáo nằm ngay trên bãi biển Mỹ Khê. Quang cảnh ban công THẬT TUYỆT VỜI!Bạn sẽ không sống gần bãi biển ở Đà Nẵng hơn nơi này!Cách sân bay hoặc ga tàu 12 phút bằng taxi.",
+      "price": "5210000",
+      "address": "Đà Nẵng",
+      "images": "./img/Phong2.webp",
+      "amenities": ["wifi", "bể bơi", "bãi biển riêng"],
+      "capacity": 10,
+      "availability": "Tersedia",
+      "owner_id": 2
+    },
+    {
+      "id": 3,
+      "category_id": 3,
+      "name": "Hạ Long, Việt Nam",
+      "description": "Thức dậy với tầm nhìn mê hoặc nhất về mặt trời mọc và đại dương đẹp trong căn hộ hướng biển của chúng tôi. Một trong những chỗ ở hiếm hoi có tầm nhìn trực tiếp ra đại dương ở Đà Nẵng với khoảng cách đi bộ ngắn đến bãi biển, bạn sẽ tận hưởng kỳ nghỉ hè của mình với những kỷ niệm tuyệt vời. Được trang bị đầy đủ thiết bị nấu ăn và dụng cụ để có một kỳ nghỉ thoải mái tại Đà Nẵng.",
+      "price": "2790000",
+      "address": "Đà Nẵng",
+      "images": "./img/Phong3.webp",
+      "amenities": [
+        "Hướng nhìn ra đường chân trời thành phố",
+        "Lối ra bãi biển – Hướng biển",
+        "Wi-fi",
+        "Không gian riêng để làm việc",
+        "Hệ thống điều hòa trung tâm"
+      ],
+      "capacity": 10,
+      "availability": "Tersedia",
+      "owner_id": 3
+    },
+    {
+      "id": 4,
+      "category_id": 4,
+      "name": "Hoa Lư, Việt Nam",
+      "description": "Hãy quên đi những lo lắng của bạn trong căn hộ chung cư bãi biển rộng rãi và thanh bình của chúng tôi. Nằm ngay bên kia Bãi biển Mỹ Khê, các quán cà phê xinh đẹp, siêu thị nhỏ và nhà hàng (đặc biệt là hải sản) nằm trong khoảng cách đi bộ. Khung cảnh ngoạn mục từ căn phòng nhìn ra đại dương và cuộc sống thành phố sẽ là một ký ức đầy mê hoặc trong khi bạn ở lại đây. Đây cũng là một trong những nơi hiếm hoi để ",
+      "price": "3710000",
+      "address": "Đà Nẵng",
+      "images": "./img/Phong4.webp",
+      "amenities": [
+        "wifi",
+        "Không gian riêng để làm việc",
+        "Hướng nhìn ra đường chân trời thành phố",
+        "Lối ra bãi biển – Hướng biển"
+      ],
+      "capacity": 10,
+      "availability": "Tersedia",
+      "owner_id": 4
+    },
+    {
+      "id": 5,
+      "category_id": 5,
+      "name": "Xuân Đám, Việt Nam",
+      "description": "* Đón AirPort miễn phí để đặt phòng từ 3 đêm!!* Dịch vụ xe hơi được giảm!!*100 m2, 2 phòng ngủ, 3 giường!!ZORO 1 nằm trên đường thẳng từ Sân bay đến bãi biển Mỹ phẩm: dễ dàng đến từ sân bay nhưng gần tất cả các điểm tham quan du lịch. 10 phút lái xe đến bãi biển Mỹ Khê. Nằm trên một tầng cao với cửa sổ khổng lồ, một cái nhìn ngoạn mục của thành phố là ngay bên ngo",
+      "price": "4790000",
+      "address": "Đà Nẵng",
+      "images": "./img/Phong5.webp",
+      "amenities": [
+        "wifi",
+        "Bể bơi Chung ngoài trời – có sẵn hoặc phục vụ theo mùa, mở cửa theo giờ giấc cụ thể, tầng thượng",
+        "Cho phép thú cưng",
+        "bãi biển riêng"
+      ],
+      "capacity": 10,
+      "availability": "Tersedia",
+      "owner_id": 5
+    },
+    {
+      "id": 6,
+      "category_id": 6,
+      "name": "Tràng An, Việt Nam",
+      "description": "Địa điểm của chúng tôi nằm trong khu vực RIÊNG BIỆT, với AN NINH và GIÁM SÁT 24/24. Vệ sinh của biệt thự được kiểm tra cẩn thận sau mỗi lần trả phòng. Chúng tôi an toàn trước tất cả các trường hợp nhiễm trùng, vì vậy chào đón tất cả Biệt thự RIÊNG✯ đầy đủ với 3 phòng ngủ Nằm gần TRUNG TÂM THÀNH PHỐ, chỉ cách SÂN BAY 10 PHÚT",
+      "price": "3990000",
+      "address": "Đà Nẵng",
+      "images": "./img/Phong6.webp",
+      "amenities": [
+        "Wi-fi nhanh – 82 Mbps",
+        "Chỗ đỗ xe miễn phí tại nơi ở",
+        "bể bơi",
+        "bãi biển riêng",
+        "54",
+        "HDTV với Chromecast, HBO Max, Netflix"
+      ],
+      "capacity": 10,
+      "availability": "Tersedia",
+      "owner_id": 6
+    },
+    {
+      "id": 7,
+      "category_id": 7,
+      "name": "Ninh Bình, Việt Nam",
+      "description": "NÀY Là MỘT NGÔI nhà, HƠN cả AN AIRBNB Nơi ở của tôi được thiết kế theo phong cách nhà với cơ sở vật chất hiện đại mang đến cho bạn cảm giác ở nhà nhưng tiện lợi như KHÁCH sạn.Không gian xanh tại ban công tạo cảm giác yên bình và tự nhiên. Vị trí tuyệt vời để tận hưởng cuộc sống yên bình tại địa phương trong khu vực cư trú yên tĩnh, nhưng các địa điểm du lịch gần đó.",
+      "price": "4290000",
+      "address": "Đà Nẵng",
+      "images": "./img/Phong7.webp",
+      "amenities": [
+        "wifi",
+        "TV với truyền hình cáp tiêu chuẩn",
+        "bể bơi",
+        "bãi biển riêng"
+      ],
+      "capacity": 10,
+      "availability": "Tersedia",
+      "owner_id": 7
+    },
+    {
+      "id": 8,
+      "category_id": 8,
+      "name": "Tam đảo, Việt Nam",
+      "description": "Tuy thuê 1 phòng ngủ nhưng bạn sở hữu nguyên 1 căn nhà với nội thất gỗ và cây xanh rất Đà Lạt. Phòng có ban công và sân vườn. Nhà có bếp và nhà xe riêng cũng như tất cả các trang bị vệ sinh cá nhân như bàn chải, khăn tắm, dầu gội .... Nhà ngay trung tâm , chỉ mất 10 phút đi bộ đến chợ mà lại cực kỳ yên tĩnh. Hãy trải nghiệm thử nhà của người dalat bạn nhé ..",
+      "price": "8990000",
+      "address": "Đà Nẵng",
+      "images": "./img/Phong8.webp",
+      "amenities": ["wifi", "bể bơi", "bãi biển riêng", "Sân hoặc ban công"],
+      "capacity": 10,
+      "availability": "Tersedia",
+      "owner_id": 8
+    }
+  ],
+  "Products": [
+    {
+      "id": 1,
+      "category_id": 1,
+      "name": "Buôn Mê Thuột, Việt Nam",
+      "description": "Một bungalow ẩn với cổng riêng và sân hiên rộng rãi riêng, hoàn hảo cho trà chiều và đêm bbq, với tầm nhìn hoàng hôn đáng yêu và ánh sáng ban đêm Bên trong bungalow là không gian mở và thoáng đãng, được trang bị đầy đủ giường đôi, ghế sofa/trạm làm việc, góc đọc sách, nhà bếp có lò vi sóng, bếp điện, tủ lạnh… Phòng tắm với bồn tắm nước nóng là một điểm cộng hoàn hảo cho bungalow nghỉ dưỡng này, vì vậy bạn có thể tận hưởng kỳ nghỉ của mình một cách trọn vẹn nhất.",
+      "price": "15990000",
+      "address": "Đà Nẵng",
+      "images": "./img/Fs1.webp",
+      "amenities": [
+        "wifi",
+        "bể bơi",
+        "bãi biển riêng",
+        "Hướng nhìn ra vườn",
+        "Cho phép thú cưng"
+      ],
+      "capacity": 10,
+      "availability": "Tersedia",
+      "owner_id": 1
+    },
+    {
+      "id": 2,
+      "category_id": 1,
+      "name": "Biệt thự tại Thành phố",
+      "description": "Một thiết kế đẹp lấy cảm hứng từ phong cách Nhật Bản Muji ngay trung tâm thành phố. Ánh sáng tràn ngập nhưng riêng tư, nơi này là tất cả những gì bạn cần cho một kỳ nghỉ thoải mái và thuận tiện tại Đà Lạt. Một chiếc giường cỡ Queen và một tầng đơn. Một TV lớn với bảng điều khiển trò chơi, Nhà bếp, phòng ngủ sạch sẽ, làm cho nơi này trở thành một nơi nghỉ ngơi hoàn hảo sau khi khám phá tất cả các điểm tham quan của Đà Lạt.",
+      "price": "11920000",
+      "address": "Đà Nẵng",
+      "images": "./img/BietThu4.webp",
+      "amenities": [
+        "wifi",
+        "bể bơi",
+        "Sân hiên hoặc ban công riêng",
+        "bãi biển riêng"
+      ],
+      "capacity": 10,
+      "availability": "Tersedia",
+      "owner_id": 1
+    },
+    {
+      "id": 3,
+      "category_id": 1,
+      "name": "Đà Nẵng, Việt Nam",
+      "description": "Chúng tôi nằm trên 1 con đường nhỏ yên tĩnh, song song với đường Phù Đổng Thiên Vương nhộn nhịp dẫn tới Thung Lũng Tình Yêu. Bạn sẽ dễ dàng tìm thấy quán ăn yêu thích trên con đường này.",
+      "price": "21990000",
+      "address": "Đà Nẵng",
+      "images": "./img/Fs3.webp",
+      "amenities": [
+        "wifi",
+        "bể bơi",
+        "Chỗ đỗ xe miễn phí tại nơi ở",
+        "bãi biển riêng"
+      ],
+      "capacity": 10,
+      "availability": "Tersedia",
+      "owner_id": 1
+    },
+    {
+      "id": 4,
+      "category_id": 4,
+      "name": "Thành phố Đà Lạt, Việt Nam",
+      "description": "Một studio ấm cúng cho chuyến đi của bạn ở Đà Lạt. Căn phòng nằm trên đỉnh đồi nhỏ, nhìn ra một phần nhỏ của thành phố. Phòng tắm khép kín có bồn tắm. Chúng tôi đã thiết kế địa điểm này với khái niệm mở, cố gắng mang thiên nhiên đến gần hơn với bạn. ",
+      "price": "19110000",
+      "address": "Đà Nẵng",
+      "images": "./img/Fs4.webp",
+      "amenities": ["wifi", "bể bơi", "bãi biển riêng"],
+      "capacity": 10,
+      "availability": "Tersedia",
+      "owner_id": 1
+    },
+    {
+      "id": 5,
+      "category_id": 5,
+      "name": "Biệt thự ven biển",
+      "description": "Biệt thự 3 phòng ngủ, 2 phòng tắm, view biển",
+      "price": "4000000",
+      "address": "Đà Nẵng",
+      "images": "./img/Hang8.webp",
+      "amenities": [
+        "wifi",
+        "bể bơi",
+        "bãi biển riêng",
+        "Máy sấy phí Đã thanh toán – Trong toà nhà"
+      ],
+      "capacity": 10,
+      "availability": "Tersedia",
+      "owner_id": 1
+    },
+    {
+      "id": 7,
+      "category_id": 7,
+      "name": "Biệt thự ven biển",
+      "description": "Biệt thự 3 phòng ngủ, 2 phòng tắm, view biển",
+      "price": "15990000",
+      "address": "Đà Nẵng",
+      "images": "./img/BietThu6.webp",
+      "amenities": ["wifi", "bể bơi", "Sân sau"],
+      "capacity": 10,
+      "availability": "Tersedia",
+      "owner_id": 1
+    },
+    {
+      "id": 8,
+      "category_id": 8,
+      "name": "Biệt thự ven biển",
+      "description": "Căn hộ kiểu khách sạn của tôi ở ngay tại trung tâm thành phố Nha Trang, thuộc tầng cao của toà khách sạn 4 sao StarCity, căn hộ được sử dụng chung tất cả các tiện ích với khách sạn, bao gồm bãi biển riêng, hồ bơi ngoài trời, phòng tập thể dục và sân chơi cho trẻ em. Toà nhà khách sạn ngay sát biển, bạn có thể ngắm nhìn bãi biển ngay khi ở trong phòng. Với cửa sổ hướng Đông, bạn có thể cùng gia đình ngắm bình minh lãng mạn trên biển vào sáng sớm.",
+      "price": "10920000",
+      "address": "Đà Nẵng",
+      "images": "./img/Fs8.webp",
+      "amenities": [
+        "wifi",
+        "Bể bơi Chung ngoài trời – có sẵn hoặc phục vụ quanh năm, mở cửa theo giờ giấc cụ thể, tầng thượng",
+        "Không gian riêng để làm việc"
+      ],
+      "capacity": 10,
+      "availability": "Tersedia",
+      "owner_id": 1
+    },
+    {
+      "id": 9,
+      "category_id": 9,
+      "name": "Ha Long, Việt Nam",
+      "description": "Chỗ ở đầy phong cách này hoàn hảo cho các chuyến đi theo nhóm với rất nhiều hoạt động hấp dẫn 24/7.🆓Bảo mật 24/7 + người dọn dẹp ▶️ Phí dịch vụ: Đầu bếp riêng, du thuyền riêng🛥️, xe đưa đón",
+      "price": "10920000",
+      "address": "Đà Nẵng",
+      "images": "./img/BietThu9.webp",
+      "image9.1": "./img/BietThu9.1.webp",
+      "image9.2": "./img/BietThu9.2.webp",
+      "amenities": ["wifi", "bể bơi", "bãi biển riêng"],
+      "capacity": 10,
+      "availability": "Tersedia",
+      "owner_id": 1
+    },
+    {
+      "id": 10,
+      "category_id": 10,
+      "name": "Hải Phòng, Việt Nam",
+      "description": "Căn hộ rộng rãi ở vị trí trung tâm tốt nhất, với bãi biển và quảng trường thành phố chỉ cách 1 phút đi bộ (theo nghĩa đen là qua đường!). Trong vòng 3 phút đi bộ đến quận nổi tiếng nhất, nơi có các cửa hàng, nhà hàng và quán bar địa phương tốt nhất. Ở tầng trên cùng, bạn sẽ tận hưởng khung cảnh đẹp của bãi biển và thành phố với hồ bơi và quán bar trên tầng thượng. Căn hộ được giữ theo tiêu chuẩn khách sạn 4 sao và được trang bị rất tốt với tất cả các tiện nghi (cộng với các tiện nghi của chúng tôi). Không được phép mang theo động vật theo quy tắc xây dựng.",
+      "price": "27920000",
+      "address": "Đà Nẵng",
+      "images": "./img/BietThu11.webp",
+      "amenities": [
+        "wifi",
+        "Máy giặt phí Miễn phí – Trong căn hộ ",
+        "Lối ra bãi biển"
+      ],
+      "capacity": 10,
+      "availability": "Tersedia",
+      "owner_id": 1
+    },
+    {
+      "id": 11,
+      "category_id": 11,
+      "name": "Lạng Sơn, Việt Nam",
+      "description": "Căn hộ tọa lạc tại tòa nhà Panorama, được coi là trung tâm của thành phố Nha Trang. Với vị trí tuyệt vời đối diện Quảng trường, gần chợ đêm, khu vực ăn uống và mua sắm xung quanh Những điều cần lưu ý khác Chúng tôi có thể giúp khách mua vé ăn sáng tự chọn với giá 215.000 VND/vé (Trẻ em dưới 6 tuổi dưới 6 tuổi được sử dụng miễn phí)",
+      "price": "11920000",
+      "address": "Đà Nẵng",
+      "images": "./img/BietThu12.webp",
+      "amenities": ["wifi", "bể bơi", "Thiết bị sạc xe điện"],
+      "capacity": 10,
+      "availability": "Tersedia",
+      "owner_id": 1
+    },
+    {
+      "id": 12,
+      "category_id": 12,
+      "name": "Kon Tum, Việt Nam",
+      "description": "Hãy cùng chào đón bình minh với một căn hộ nhìn ra biển yên bình. Một nơi lý tưởng cho kỳ nghỉ của bạn ở thành phố biển Nha Trang, được trang bị đầy đủ tiện nghi với đồ dùng nhà bếp, máy giặt. Cảm ơn.",
+      "price": "10920000",
+      "address": "Đà Nẵng",
+      "images": "./img/BietThu2.webp",
+      "amenities": ["wifi", "bể bơi", "bãi biển riêng"],
+      "capacity": 10,
+      "availability": "Tersedia",
+      "owner_id": 1
+    },
+    {
+      "id": 13,
+      "category_id": 13,
+      "name": "Gia Lai, Việt Nam",
+      "description": "Hãy cùng chào đón bình minh với một căn hộ nhìn ra biển yên bình. Một nơi lý tưởng cho kỳ nghỉ của bạn ở thành phố biển Nha Trang, được trang bị đầy đủ tiện nghi với đồ dùng nhà bếp, máy giặt. Cảm ơn.",
+      "price": "10920000",
+      "address": "Đà Nẵng",
+      "images": "./img/Fs4.webp",
+      "amenities": ["wifi", "bể bơi", "bãi biển riêng"],
+      "capacity": 10,
+      "availability": "Tersedia",
+      "owner_id": 1
+    },
+    {
+      "id": 14,
+      "category_id": 14,
+      "name": "Bà Rịa, Việt Nam",
+      "description": "Hãy cùng chào đón bình minh với một căn hộ nhìn ra biển yên bình. Một nơi lý tưởng cho kỳ nghỉ của bạn ở thành phố biển Nha Trang, được trang bị đầy đủ tiện nghi với đồ dùng nhà bếp, máy giặt. Cảm ơn.",
+      "price": "69920000",
+      "address": "Đà Nẵng",
+      "images": "./img/Fs4.webp",
+      "amenities": ["wifi", "bể bơi", "bãi biển riêng"],
+      "capacity": 10,
+      "availability": "Tersedia",
+      "owner_id": 1
+    },
+    {
+      "id": 15,
+      "category_id": 15,
+      "name": "Đồng Nai, Việt Nam",
+      "description": "Hãy cùng chào đón bình minh với một căn hộ nhìn ra biển yên bình. Một nơi lý tưởng cho kỳ nghỉ của bạn ở thành phố biển Nha Trang, được trang bị đầy đủ tiện nghi với đồ dùng nhà bếp, máy giặt. Cảm ơn.",
+      "price": "5920000",
+      "address": "Đà Nẵng",
+      "images": "./img/Fs8.webp",
+      "amenities": ["wifi", "bể bơi", "bãi biển riêng"],
+      "capacity": 10,
+      "availability": "Tersedia",
+      "owner_id": 1
+    },
+    {
+      "id": 16,
+      "category_id": 16,
+      "name": "Thủ Đức, Việt Nam",
+      "description": "Hãy cùng chào đón bình minh với một căn hộ nhìn ra biển yên bình. Một nơi lý tưởng cho kỳ nghỉ của bạn ở thành phố biển Nha Trang, được trang bị đầy đủ tiện nghi với đồ dùng nhà bếp, máy giặt. Cảm ơn.",
+      "price": "18920000",
+      "address": "Đà Nẵng",
+      "images": "./img/FS10.webp",
+      "amenities": ["wifi", "bể bơi", "bãi biển riêng"],
+      "capacity": 10,
+      "availability": "Tersedia",
+      "owner_id": 1
+    },
+    {
+      "id": 17,
+      "category_id": 17,
+      "name": "Bạc Liêu, Việt Nam",
+      "description": "Hãy cùng chào đón bình minh với một căn hộ nhìn ra biển yên bình. Một nơi lý tưởng cho kỳ nghỉ của bạn ở thành phố biển Nha Trang, được trang bị đầy đủ tiện nghi với đồ dùng nhà bếp, máy giặt. Cảm ơn.",
+      "price": "33210000",
+      "address": "Đà Nẵng",
+      "images": "./img/Fs3.webp",
+      "amenities": ["wifi", "bể bơi", "bãi biển riêng"],
+      "capacity": 10,
+      "availability": "Tersedia",
+      "owner_id": 1
+    },
+    {
+      "id": 18,
+      "category_id": 18,
+      "name": "Hà Nội, Việt Nam",
+      "description": "Hãy cùng chào đón bình minh với một căn hộ nhìn ra biển yên bình. Một nơi lý tưởng cho kỳ nghỉ của bạn ở thành phố biển Nha Trang, được trang bị đầy đủ tiện nghi với đồ dùng nhà bếp, máy giặt. Cảm ơn.",
+      "price": "21420000",
+      "address": "Đà Nẵng",
+      "images": "./img/C2.webp",
+      "amenities": ["wifi", "bể bơi", "bãi biển riêng"],
+      "capacity": 10,
+      "availability": "Tersedia",
+      "owner_id": 1
+    },
+    {
+      "id": 19,
+      "category_id": 19,
+      "name": "Bình Dương, Việt Nam",
+      "description": "Hãy cùng chào đón bình minh với một căn hộ nhìn ra biển yên bình. Một nơi lý tưởng cho kỳ nghỉ của bạn ở thành phố biển Nha Trang, được trang bị đầy đủ tiện nghi với đồ dùng nhà bếp, máy giặt. Cảm ơn.",
+      "price": "43210000",
+      "address": "Đà Nẵng",
+      "images": "./img/C1.webp",
+      "amenities": ["wifi", "bể bơi", "bãi biển riêng"],
+      "capacity": 10,
+      "availability": "Tersedia",
+      "owner_id": 1
+    },
+
+    {
+      "id": 20,
+      "category_id": 20,
+      "name": "Thái Nguyên, Việt Nam",
+      "description": "Hãy cùng chào đón bình minh với một căn hộ nhìn ra biển yên bình. Một nơi lý tưởng cho kỳ nghỉ của bạn ở thành phố biển Nha Trang, được trang bị đầy đủ tiện nghi với đồ dùng nhà bếp, máy giặt. Cảm ơn.",
+      "price": "33210000",
+      "address": "Đà Nẵng",
+      "images": "./img/C1.webp",
+      "amenities": ["wifi", "bể bơi", "bãi biển riêng"],
+      "capacity": 10,
+      "availability": "Tersedia",
+      "owner_id": 1
+    },
+    {
+      "id": 21,
+      "category_id": 21,
+      "name": "Bình Dương, Việt Nam",
+      "description": "Hãy cùng chào đón bình minh với một căn hộ nhìn ra biển yên bình. Một nơi lý tưởng cho kỳ nghỉ của bạn ở thành phố biển Nha Trang, được trang bị đầy đủ tiện nghi với đồ dùng nhà bếp, máy giặt. Cảm ơn.",
+      "price": "33210000",
+      "address": "Đà Nẵng",
+      "images": "./img/C2.webp",
+      "amenities": ["wifi", "bể bơi", "bãi biển riêng"],
+      "capacity": 10,
+      "availability": "Tersedia",
+      "owner_id": 1
+    },
+    {
+      "id": 22,
+      "category_id": 22,
+      "name": "Bình Dương, Việt Nam",
+      "description": "Hãy cùng chào đón bình minh với một căn hộ nhìn ra biển yên bình. Một nơi lý tưởng cho kỳ nghỉ của bạn ở thành phố biển Nha Trang, được trang bị đầy đủ tiện nghi với đồ dùng nhà bếp, máy giặt. Cảm ơn.",
+      "price": "33210000",
+      "address": "Đà Nẵng",
+      "images": "./img/C3.webp",
+      "amenities": ["wifi", "bể bơi", "bãi biển riêng"],
+      "capacity": 10,
+      "availability": "Tersedia",
+      "owner_id": 1
+    }
+  ],
+  "BuildDetail": {
+    "id": 1,
+    "donhang_id": 1,
+    "product_id": 1,
+    "so_luong": 2,
+    "thanh_tien": 20000000
+  },
+  "comment": {
+    "id": 1,
+    "product_id": 1,
+    "user_id": 2,
+    "content": "Biệt thự rất đẹp và tiện nghi, chủ nhà thân thiện",
+    "rating": 5
+  },
+  "Product": {
+    "id": 1,
+    "id_user": 1,
+    "tongdh": 20,
+    "thuonghieu": "Luxury",
+    "hoten": "Vo Ho Chi",
+    "email": "nguyenvana@gmail.com",
+    "phone": "0912345678",
+    "ngay_dathang": "2024-01-04",
+    "dia_chi": "Số 10, đường Nguyễn Văn Cừ, Quận 1, Thành phố Hồ Chí Minh"
+  },
+  "trademark": {
+    "id_thuonghieu": 1,
+    "Name": "Địa điểm nghỉ dưỡng",
+    "logo": "..."
+  },
+  "Favorite": [
+    {
+      "id": 1,
+      "category_id": 1,
+      "name": "Buôn Mê Thuột, Việt Nam",
+      "description": "Một bungalow ẩn với cổng riêng và sân hiên rộng rãi riêng, hoàn hảo cho trà chiều và đêm bbq, với tầm nhìn hoàng hôn đáng yêu và ánh sáng ban đêm Bên trong bungalow là không gian mở và thoáng đãng, được trang bị đầy đủ giường đôi, ghế sofa/trạm làm việc, góc đọc sách, nhà bếp có lò vi sóng, bếp điện, tủ lạnh… Phòng tắm với bồn tắm nước nóng là một điểm cộng hoàn hảo cho bungalow nghỉ dưỡng này, vì vậy bạn có thể tận hưởng kỳ nghỉ của mình một cách trọn vẹn nhất.",
+      "price": "15990000",
+      "address": "Đà Nẵng",
+      "images": "./img/Fs1.webp",
+      "amenities": [
+        "wifi",
+        "bể bơi",
+        "bãi biển riêng",
+        "Hướng nhìn ra vườn",
+        "Cho phép thú cưng"
+      ],
+      "capacity": 10,
+      "availability": "Tersedia",
+      "owner_id": 1
+    },
+    {
+      "id": 2,
+      "category_id": 1,
+      "name": "Biệt thự tại Thành phố",
+      "description": "Một thiết kế đẹp lấy cảm hứng từ phong cách Nhật Bản Muji ngay trung tâm thành phố. Ánh sáng tràn ngập nhưng riêng tư, nơi này là tất cả những gì bạn cần cho một kỳ nghỉ thoải mái và thuận tiện tại Đà Lạt. Một chiếc giường cỡ Queen và một tầng đơn. Một TV lớn với bảng điều khiển trò chơi, Nhà bếp, phòng ngủ sạch sẽ, làm cho nơi này trở thành một nơi nghỉ ngơi hoàn hảo sau khi khám phá tất cả các điểm tham quan của Đà Lạt.",
+      "price": "11920000",
+      "address": "Đà Nẵng",
+      "images": "./img/BietThu4.webp",
+      "amenities": [
+        "wifi",
+        "bể bơi",
+        "Sân hiên hoặc ban công riêng",
+        "bãi biển riêng"
+      ],
+      "capacity": 10,
+      "availability": "Tersedia",
+      "owner_id": 1
+    },
+    {
+      "id": 3,
+      "category_id": 1,
+      "name": "Đà Nẵng, Việt Nam",
+      "description": "Chúng tôi nằm trên 1 con đường nhỏ yên tĩnh, song song với đường Phù Đổng Thiên Vương nhộn nhịp dẫn tới Thung Lũng Tình Yêu. Bạn sẽ dễ dàng tìm thấy quán ăn yêu thích trên con đường này.",
+      "price": "21990000",
+      "address": "Đà Nẵng",
+      "images": "./img/Fs3.webp",
+      "amenities": [
+        "wifi",
+        "bể bơi",
+        "Chỗ đỗ xe miễn phí tại nơi ở",
+        "bãi biển riêng"
+      ],
+      "capacity": 10,
+      "availability": "Tersedia",
+      "owner_id": 1
+    },
+    {
+      "id": 4,
+      "category_id": 4,
+      "name": "Thành phố Đà Lạt, Việt Nam",
+      "description": "Một studio ấm cúng cho chuyến đi của bạn ở Đà Lạt. Căn phòng nằm trên đỉnh đồi nhỏ, nhìn ra một phần nhỏ của thành phố. Phòng tắm khép kín có bồn tắm. Chúng tôi đã thiết kế địa điểm này với khái niệm mở, cố gắng mang thiên nhiên đến gần hơn với bạn. ",
+      "price": "19110000",
+      "address": "Đà Nẵng",
+      "images": "./img/Fs4.webp",
+      "amenities": ["wifi", "bể bơi", "bãi biển riêng"],
+      "capacity": 10,
+      "availability": "Tersedia",
+      "owner_id": 1
+    },
+    {
+      "id": 5,
+      "category_id": 5,
+      "name": "Biệt thự ven biển",
+      "description": "Biệt thự 3 phòng ngủ, 2 phòng tắm, view biển",
+      "price": "4000000",
+      "address": "Đà Nẵng",
+      "images": "./img/Hang8.webp",
+      "amenities": [
+        "wifi",
+        "bể bơi",
+        "bãi biển riêng",
+        "Máy sấy phí Đã thanh toán – Trong toà nhà"
+      ],
+      "capacity": 10,
+      "availability": "Tersedia",
+      "owner_id": 1
+    },
+    {
+      "id": 6,
+      "category_id": 6,
+      "name": "mini khu vực yên bình",
+      "description": "Chào mừng bạn đến với La maison à Dalat - ngôi nhà ở Đà Lạt, ngôi nhà của chúng tôi nằm trong khu vực yên bình với tầm nhìn đẹp và nội thất gần như đầy đủ. Nơi này thực sự là nhà của chúng tôi, chúng tôi chỉ sử dụng nó vào một số ngày đặc biệt, vì vậy nó luôn sạch sẽ và đẹp cho khách.",
+      "price": "17121000",
+      "address": "Đà Nẵng",
+      "images": "./img/BietThu7.webp",
+      "amenities": ["wifi", "bể bơi", "bãi biển riêng"],
+      "capacity": 10,
+      "availability": "Tersedia",
+      "owner_id": 1
+    },
+    {
+      "id": 7,
+      "category_id": 7,
+      "name": "Biệt thự ven biển",
+      "description": "Biệt thự 3 phòng ngủ, 2 phòng tắm, view biển",
+      "price": "15990000",
+      "address": "Đà Nẵng",
+      "images": "./img/BietThu6.webp",
+      "amenities": ["wifi", "bể bơi", "Sân sau"],
+      "capacity": 10,
+      "availability": "Tersedia",
+      "owner_id": 1
+    },
+    {
+      "id": 8,
+      "category_id": 8,
+      "name": "Biệt thự ven biển",
+      "description": "Căn hộ kiểu khách sạn của tôi ở ngay tại trung tâm thành phố Nha Trang, thuộc tầng cao của toà khách sạn 4 sao StarCity, căn hộ được sử dụng chung tất cả các tiện ích với khách sạn, bao gồm bãi biển riêng, hồ bơi ngoài trời, phòng tập thể dục và sân chơi cho trẻ em. Toà nhà khách sạn ngay sát biển, bạn có thể ngắm nhìn bãi biển ngay khi ở trong phòng. Với cửa sổ hướng Đông, bạn có thể cùng gia đình ngắm bình minh lãng mạn trên biển vào sáng sớm.",
+      "price": "10920000",
+      "address": "Đà Nẵng",
+      "images": "./img/Fs8.webp",
+      "amenities": [
+        "wifi",
+        "Bể bơi Chung ngoài trời – có sẵn hoặc phục vụ quanh năm, mở cửa theo giờ giấc cụ thể, tầng thượng",
+        "Không gian riêng để làm việc"
+      ],
+      "capacity": 10,
+      "availability": "Tersedia",
+      "owner_id": 1
+    },
+    {
+      "id": 9,
+      "category_id": 9,
+      "name": "Ha Long, Việt Nam",
+      "description": "Chỗ ở đầy phong cách này hoàn hảo cho các chuyến đi theo nhóm với rất nhiều hoạt động hấp dẫn 24/7.🆓Bảo mật 24/7 + người dọn dẹp ▶️ Phí dịch vụ: Đầu bếp riêng, du thuyền riêng🛥️, xe đưa đón",
+      "price": "10920000",
+      "address": "Đà Nẵng",
+      "images": "./img/BietThu9.webp",
+      "image9.1": "./img/BietThu9.1.webp",
+      "image9.2": "./img/BietThu9.2.webp",
+      "amenities": ["wifi", "bể bơi", "bãi biển riêng"],
+      "capacity": 10,
+      "availability": "Tersedia",
+      "owner_id": 1
+    },
+    {
+      "id": 10,
+      "category_id": 10,
+      "name": "Biệt thự ven biển",
+      "description": "Căn hộ rộng rãi ở vị trí trung tâm tốt nhất, với bãi biển và quảng trường thành phố chỉ cách 1 phút đi bộ (theo nghĩa đen là qua đường!). Trong vòng 3 phút đi bộ đến quận nổi tiếng nhất, nơi có các cửa hàng, nhà hàng và quán bar địa phương tốt nhất. Ở tầng trên cùng, bạn sẽ tận hưởng khung cảnh đẹp của bãi biển và thành phố với hồ bơi và quán bar trên tầng thượng. Căn hộ được giữ theo tiêu chuẩn khách sạn 4 sao và được trang bị rất tốt với tất cả các tiện nghi (cộng với các tiện nghi của chúng tôi). Không được phép mang theo động vật theo quy tắc xây dựng.",
+      "price": "10920000",
+      "address": "Đà Nẵng",
+      "images": "./img/BietThu11.webp",
+      "amenities": [
+        "wifi",
+        "Máy giặt phí Miễn phí – Trong căn hộ ",
+        "Lối ra bãi biển"
+      ],
+      "capacity": 10,
+      "availability": "Tersedia",
+      "owner_id": 1
+    },
+    {
+      "id": 12,
+      "category_id": 12,
+      "name": "Biệt thự ven biển",
+      "description": "Căn hộ tọa lạc tại tòa nhà Panorama, được coi là trung tâm của thành phố Nha Trang. Với vị trí tuyệt vời đối diện Quảng trường, gần chợ đêm, khu vực ăn uống và mua sắm xung quanh Những điều cần lưu ý khác Chúng tôi có thể giúp khách mua vé ăn sáng tự chọn với giá 215.000 VND/vé (Trẻ em dưới 6 tuổi dưới 6 tuổi được sử dụng miễn phí)",
+      "price": "10920000",
+      "address": "Đà Nẵng",
+      "images": "./img/BietThu12.webp",
+      "amenities": ["wifi", "bể bơi", "Thiết bị sạc xe điện"],
+      "capacity": 10,
+      "availability": "Tersedia",
+      "owner_id": 1
+    },
+    {
+      "id": 13,
+      "category_id": 13,
+      "name": "Biệt thự ven biển",
+      "description": "Hãy cùng chào đón bình minh với một căn hộ nhìn ra biển yên bình. Một nơi lý tưởng cho kỳ nghỉ của bạn ở thành phố biển Nha Trang, được trang bị đầy đủ tiện nghi với đồ dùng nhà bếp, máy giặt. Cảm ơn.",
+      "price": "10920000",
+      "address": "Đà Nẵng",
+      "images": "./img/BietThu2.webp",
+      "amenities": ["wifi", "bể bơi", "bãi biển riêng"],
+      "capacity": 10,
+      "availability": "Tersedia",
+      "owner_id": 1
+    }
+  ]
+}
